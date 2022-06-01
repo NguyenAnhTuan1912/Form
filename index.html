@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Practice 4</title>
+</head>
+<body>
+    <main id="main">
+        <section>
+            <header>
+                <h1>Check Box Manager</h1>
+                <p>Hello, I'm Tony. I'm your check box manager. You can add or delete a check box.
+                    I'll improve myself for more functoin soon!
+                </p>
+            </header>
+        </section>
+        <section>
+            <header>
+                <h1>What's your current job?</h1>
+                <p>(Select one or more option)</p>
+            </header>
+            <article>
+                <label>
+                    <input type="checkbox" name="role" checked />
+                    <span class="alternative-checkbox"></span>
+                    <span class="text">Front-End Developer</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="role"/>
+                    <span class="alternative-checkbox"></span>
+                    <span class="text">Back-End Developer</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="role"/>
+                    <span class="alternative-checkbox"></span>
+                    <span class="text">Data Scienctist</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="role"/>
+                    <span class="alternative-checkbox"></span>
+                    <span class="text">Software Engineer</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="role"/>
+                    <span class="alternative-checkbox"></span>
+                    <span class="text">UI/UX Designer</span>
+                </label>
+            </article>
+        </section>
+    </main>
+    <section id="button-container">
+        <button type="submit" id="add"><i class="fa-solid fa-plus"></i></button>
+        <button type="submit" id="delete"><i class="fa-solid fa-minus"></i></button>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
